@@ -22,3 +22,25 @@ It allows users to add income/expense entries, view records, generate monthly su
 ❌ Delete entries
 
 🔁 Persistent storage
+
+🗂 Project Structure
+expense-tracker-cli/
+│── tracker.py
+│── data.csv
+│── requirements.txt
+│── expense_report.xlsx     (auto-created)
+│── expense_chart.png       (auto-created)
+
+🧠 Technologies Used
+
+Python
+
+Pandas — Data handling
+
+CSV — Storage
+
+Matplotlib — Chart generation
+
+OpenPyXL — Excel export
+
+Datetime — Date validation
